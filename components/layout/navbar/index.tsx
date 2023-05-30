@@ -18,7 +18,8 @@ const Navbar = ({}: {}) => {
   return (
     <>
       <NavbarBackgroundColor />
-      <nav className="sticky top-0 h-14 z-50 mx-auto max-w-screen-lg w-full px-2 flex items-center justify-between text-white">
+
+      <nav className="fixed top-0 left-0 right-0 h-14 z-50 mx-auto max-w-screen-lg w-full px-2 flex items-center justify-between text-white">
         <Link
           href="/"
           className="rounded bg-white p-1 text-black flex items-center font-medium w-9 transition-all duration-500 hover:w-[12.5rem] group overflow-hidden"
