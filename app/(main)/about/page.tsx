@@ -1,11 +1,11 @@
+import Header from "@/components/layout/header";
 import Image from "next/image";
+import placeholderImage from "@/public/placeholder.jpg";
 
 export default function About() {
   return (
-    <div className="max-w-screen-xl flex mx-auto w-full">
-      <div>
-        <h1 className="text-3xl font-extrabold">ABOUT i2</h1>
-      </div>
+    <div>
+      <Header name="About i2" image={placeholderImage} />
     </div>
   );
 }

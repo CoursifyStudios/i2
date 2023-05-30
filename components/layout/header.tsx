@@ -7,7 +7,7 @@ const Header = ({className, image, name}: {className?: string, image: string | S
 			fill
 			alt="Image"
 			src={image}
-			className="object-cover brightness-75 -z-10"
+			className="object-cover brightness-50 -z-10"
 			/>
 			<div className="text-white text-5xl font-bold">{name}</div>
 		</section>
