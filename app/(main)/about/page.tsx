@@ -1,4 +1,4 @@
-import Header from "@/components/layout/header";
+import Header from "@/components/layout/banner";
 import Image from "next/image";
 import placeholderImage from "@/public/placeholder.jpg";
 
