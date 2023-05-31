@@ -22,7 +22,7 @@ const NavbarBackgroundColor = ({}: {}) => {
 	
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 h-14 z-40 bg-theme-primary transition duration-300 ${scroll == 0 ? "bg-opacity-0" : "bg-opacity-100 duration-500"}`}
+      className={`fixed top-0 left-0 right-0 h-14 z-40 bg-theme-primary transition duration-300 ${scroll == 0 ? "bg-opacity-0" : "bg-opacity-90 backdrop-blur-md duration-500"}`}
       //onScroll={(e) => alert("scrolled")}
     />
   );
