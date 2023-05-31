@@ -1,25 +1,23 @@
-import { CollectionConfig } from 'payload/types';
+import { CollectionConfig } from "payload/types";
 
 export const Users: CollectionConfig = {
-  slug: 'users',
+  slug: "users",
   auth: true,
   admin: {
-    useAsTitle: 'fullName',
+    useAsTitle: "fullName",
   },
   fields: [
     {
-			name: "fullName",
-			type: "text"
-		},
-		{
-			name: "classYear",
-			type: "number",
-			validate: async (val, {operation}) => {
-				if (val > 2000 && (val as number).toString().length == 4)
-				return true
-				else 
-				return "Add a valid gradiation year"
-			}
-		}
+      name: "fullName",
+      type: "text",
+    },
+    {
+      name: "classYear",
+      type: "number",
+      validate: async (val, { operation }) => {
+        if (val > 2000 && (val as number).toString().length == 4) return true;
+        else return "Add a valid gradiation year";
+      },
+    },
   ],
 };
