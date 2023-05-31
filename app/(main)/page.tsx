@@ -24,11 +24,28 @@ export default function Home() {
 				</div>
 				<div className="absolute inset-0 bg-gradient-to-t from-gray-100 to-30%" />
 			</div>
+
 			<Content>
-				<div className="-mt-10 grid grid-cols-3 gap-6">
+				<div className="-mt-20 flex w-full rounded-lg bg-white mb-16 shadow-lg">
+					<p className="p-4 text-center font-semibold">
+						The Inquiry & Innovation Program {"(i2)"} is a four-year leadership
+						and enrichment program that challenges students to inquire how their
+						capabilities and passions can serve communities from the local to
+						global scale and to explore innovative ways to do so effectively.The
+						i2 Program develops students problem-solving, creativity, analytical
+						abilities, and leadership skills through a curriculum that
+						integrates STEM, liberal arts, and service. Through annual projects,
+						field trips, talks, performances, and outdoor adventures, students
+						examine and address ideas and issues outside the classroom. As they
+						involve themselves in the many programs at SHC, including Robotics,
+						the Student Launch Initiative, and TEDxYouth@SHC, i2 students build
+						their capacity to create positive change in the world.
+					</p>
+				</div>
+				<div className=" grid grid-cols-3 gap-6">
 					<RowCard
-							content="After 2 long years of not having a Showcase, i2 scholars will be presenting their projects on April 9th. The Showcase will begin at 10:00 am and go for 90 minutes until 11:30 am. We’ll take a 30-minute break, and then families will join the i2 scholars in the Collins Theatre for a celebration of the year. "
-							image={placeholderImage}
+						content="After 2 long years of not having a Showcase, i2 scholars will be presenting their projects on April 9th. The Showcase will begin at 10:00 am and go for 90 minutes until 11:30 am. We’ll take a 30-minute break, and then families will join the i2 scholars in the Collins Theatre for a celebration of the year. "
+						image={placeholderImage}
 						title="What's New in i2?"
 					/>
 					<RowCard

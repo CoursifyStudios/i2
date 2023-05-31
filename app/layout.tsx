@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Analytics } from '@vercel/analytics/react';
 
 // Nextjs sometimes decides not to show the font the first time a user vists the website, so this remedies that
 const inter = Inter({ subsets: ['latin'], display: "swap" })
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="bg-gray-100">
       <body className={inter.className}>{children}</body>
+      <Analytics />
     </html>
   )
 }
