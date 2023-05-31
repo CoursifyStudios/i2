@@ -4,6 +4,7 @@ import { Users } from "./collections/users";
 import { Projects } from "./collections/projects";
 import { Logo } from './branding';
 import { Icon } from './branding';
+import { Blogs } from "./collections/blog";
 
 export default buildConfig({
   admin: {
@@ -19,7 +20,7 @@ export default buildConfig({
       },
     },
  },
-  collections: [Users, Projects],
+  collections: [Users, Projects, Blogs],
   globals: [
     // Your globals here
   ],
