@@ -14,6 +14,7 @@ export default function Home() {
           src={placeholderImage}
           className="h-[100vh] w-full brightness-90 select-none "
         />
+        <h1 className="content-center">Inquiry & Innovation Program</h1>
         <div className="inset-0 absolute bg-gradient-to-b from-transparent via-transparent to-gray-100" />
       </div>
 
