@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://i2.today" target="_blank"><img src="https://i2.vercel.app/icon.svg" alt="i2" width="150"></a>
+  <a href="https://i2.today" target="_blank"><img src="https://i2.vercel.app/icon.svg" alt="i2" width="100"></a>
   <br>
 Innovation and Inquiry Program
   <br>
