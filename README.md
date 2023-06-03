@@ -1,34 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  <br>
+  <a href="https://i2.today" target="_blank"><img src="https://i2.vercel.app/icon.svg" alt="i2" width="150"></a>
+  <br>
+Innovation and Inquiry Program
+  <br>
+</h1>
+<h4 align="center">Built on Nextjs App Directory and serverless PayloadCMS
 
-## Getting Started
+</h4>
+<br>
+<p align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg">
+  <img src="https://hhrehffmdrcjqowwvgqg.supabase.co/storage/v1/object/public/cdn/assets/Coursify/for-students-by-students.svg">
+</p>
 
-First, run the development server:
+![Coursify](https://cdn.discordapp.com/attachments/1018976233884749917/1113909892969934918/image.png)
+
+## Setup
+
+To clone and run this application, you'll need [Git](https://git-scm.com) and [Yarn](https://classic.yarnpkg.com/en/) installed on your computer. After cloning the repo locally in your IDE, from your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# Install dependencies
+$ yarn
+
+# Run the app
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Next, create a `.env.local` file and populate it with the following variables
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+MONGODB_URI=
+PAYLOAD_SECRET=
+PAYLOAD_CONFIG_PATH=payload/payload.config.ts
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+_(For development on the production environment, contact [brandnholl](https://github.com/brandnholl) for the mongo connection string and payload secret)_
 
-## Learn More
+## Credits
 
-To learn more about Next.js, take a look at the following resources:
+The i2 website is maintained by:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [brandnholl](https://github.com/brandnholl)
+- [IllGive](https://github.com/IllGive)
+- [quick007](https://github.com/quick007)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+The i2 website uses the following open source packages:
 
-## Deploy on Vercel
+- [React](https://react.dev/)
+- [NextJS](https://nextjs.org/)
+- [PayloadCMS](https://payloaadcms.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [HeroIcons](https://heroicons.com/)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+.. and many more.
