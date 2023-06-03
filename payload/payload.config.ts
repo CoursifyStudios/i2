@@ -21,9 +21,7 @@ export default buildConfig({
     },
  },
   collections: [Users, Projects, Blogs],
-  globals: [
-    // Your globals here
-  ],
+  globals: [],
   typescript: {
     outputFile: path.resolve(__dirname, "../payload-types.ts"),
   },

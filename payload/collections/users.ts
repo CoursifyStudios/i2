@@ -16,7 +16,7 @@ export const Users: CollectionConfig = {
       type: "number",
       validate: async (val, { operation }) => {
         if (val > 2000 && (val as number).toString().length == 4) return true;
-        else return "Add a valid gradiation year";
+        else return "Add a valid graduation year";
       },
     },
   ],
