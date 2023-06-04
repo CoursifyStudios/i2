@@ -18,6 +18,12 @@ export const Projects: CollectionConfig = {
       required: true,
     },
     {
+      name: 'backgroundImage', // required
+      type: 'upload', // required
+      relationTo: 'media', // required
+      required: true,
+    },
+    {
       type: "tabs",
       tabs: [
         {
