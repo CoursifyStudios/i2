@@ -43,10 +43,6 @@ export default buildConfig({
 					adapter,
           disablePayloadAccessControl: true,
 				},
-				projects: {
-					adapter,
-          disablePayloadAccessControl: true,
-				},
 			},
 		}),
 	],
