@@ -26,8 +26,7 @@ export default buildConfig({
 	admin: {
 		meta: {
 			titleSuffix: "- Innovation and Inquiry Program",
-			favicon: "/assets/favicon.svg",
-			ogImage: "/assets/logo.svg",
+			favicon: "/assets/icon.svg",
 		},
 		components: {
 			graphics: {
@@ -41,7 +40,7 @@ export default buildConfig({
 			collections: {
 				media: {
 					adapter,
-          disablePayloadAccessControl: true,
+					disablePayloadAccessControl: true,
 				},
 			},
 		}),
