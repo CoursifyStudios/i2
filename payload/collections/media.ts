@@ -4,18 +4,16 @@ import path from 'path';
 export const Media: CollectionConfig = {
   slug: 'media',
   upload: {
-    staticDir: path.resolve(__dirname, ''),
-    adminThumbnail: ({ doc }) =>
-      `${doc.url}`,
+    staticDir: 'https://cdn.coursify.studio'
   },
-  
+  access: {
+    read: () => true,
+  },
   fields: [
     {
       name: 'alt',
       type: 'text',
       required: true,
     },
-    
   ]
-  
 }
